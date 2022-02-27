@@ -100,10 +100,35 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
-    
-    scene.hotspotContainer().createHotspot(document.querySelector("#expand"), { yaw: 0.42, pitch: -0.03 });
+    //landmarks
+    scene.hotspotContainer().createHotspot(document.querySelector("#d-mart"), { yaw: 9.72, pitch: 0.18 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#bharat-mata-chowk"), { yaw: 9.96, pitch: 0.09 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#moshi-high-street"), { yaw: 10.90, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#spine-city-mall"), { yaw: 4.85, pitch: 0.23 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#hdfc-bank"), { yaw: 5.25, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#axis-bank"), { yaw: 5.70, pitch: 0.25 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#kbs-chowk"), { yaw: 6.23, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#nigdi-flyover"), { yaw: 31.85, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#coep-college"), { yaw: 5.90, pitch: 0.15 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#rama-equator"), { yaw: 5.95, pitch: 0.09 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#district-court"), { yaw: 14.90, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#nashik-phata"), { yaw: 8.90, pitch: 0.11 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#tata-motors"), { yaw: 11.90, pitch: 0.11 });
 
+    // locations
+    scene.hotspotContainer().createHotspot(document.querySelector("#chikhali"), { yaw: 9.32, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#alandi"), { yaw: 9.85, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#moshi"), { yaw: 4.85, pitch: 0.0 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#pune-airport"), { yaw: 4.85, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#bhosari-midc"), { yaw: 11.90, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#nigdi"), { yaw: 31.75, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#talawade-it-park"), { yaw: 32.75, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#dehugaon"), { yaw: 33.30, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#chakan"), { yaw: 8.70, pitch: -0.1 });
+    
     scene.hotspotContainer().createHotspot(document.querySelector("#textInfo"), { yaw: 0.1, pitch: 0.13 });
+    // scene.hotspotContainer().createHotspot(document.querySelector("#reveal"), { yaw: -0.92, pitch: -0.1 });
+    // scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: 4.04, pitch: 0.52 });
 
     return {
       data: data,

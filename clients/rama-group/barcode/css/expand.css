@@ -58,7 +58,7 @@
   transition: opacity .2s ease-in-out;
 }
 
-#expand:hover {
+/* #expand:hover {
   width: 200px;
   height: 200px;
   margin-top: -200px;
@@ -84,4 +84,4 @@
   border-width: 0;
   left: 95px;
   top: 198px;
-}
+} */
