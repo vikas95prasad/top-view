@@ -808,9 +808,13 @@ body.view-control-buttons .viewControlButton {
   height: 135px;
   left: -99px;
   position: absolute;
-  top: -112px;
+  top: -152px;
   visibility: inherit;
   width: 200px;
   pointer-events: auto;
   transform-origin: 50% 50%;
+}
+
+.pune-convention-center {
+  width: 250px !important;
 }
