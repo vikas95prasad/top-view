@@ -810,7 +810,7 @@ body.view-control-buttons .viewControlButton {
   position: absolute;
   top: -112px;
   visibility: inherit;
-  width: 150px;
+  width: 200px;
   pointer-events: auto;
   transform-origin: 50% 50%;
 }
