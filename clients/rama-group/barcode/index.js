@@ -120,7 +120,7 @@
     scene.hotspotContainer().createHotspot(document.querySelector("#alandi"), { yaw: 9.85, pitch: -0.1 });
     scene.hotspotContainer().createHotspot(document.querySelector("#moshi"), { yaw: 4.85, pitch: -0.1 });
     scene.hotspotContainer().createHotspot(document.querySelector("#pune-airport"), { yaw: 4.53, pitch: -0.09 });
-    scene.hotspotContainer().createHotspot(document.querySelector("#bhosari-midc"), { yaw: 12.00, pitch: -0.1 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#bhosari-midc"), { yaw: 12.10, pitch: -0.1 });
     scene.hotspotContainer().createHotspot(document.querySelector("#nigdi"), { yaw: 31.75, pitch: -0.1 });
     scene.hotspotContainer().createHotspot(document.querySelector("#talawade-it-park"), { yaw: 32.75, pitch: -0.1 });
     scene.hotspotContainer().createHotspot(document.querySelector("#dehugaon"), { yaw: 33.30, pitch: -0.1 });
