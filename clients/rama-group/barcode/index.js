@@ -100,9 +100,10 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
+    scene.hotspotContainer().createHotspot(document.querySelector("#rama_group_logo"), { yaw: 10.55, pitch: 0.60 });
     scene.hotspotContainer().createHotspot(document.querySelector("#blinker"), { yaw: 10.55, pitch: 0.60 });
     scene.hotspotContainer().createHotspot(document.querySelector("#blinker-pune-convention"), { yaw: 11.32, pitch: 0.04 });
-    scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: 10.47, pitch: 0.30 });
+    scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: 10.46, pitch: 0.53 });
 
     // landmarks
     scene.hotspotContainer().createHotspot(document.querySelector("#d-mart"), { yaw: 9.72, pitch: 0.18 });

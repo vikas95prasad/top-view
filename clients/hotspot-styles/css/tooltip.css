@@ -1,6 +1,6 @@
 #tooltip {
-  width: 60px;
-  height: 60px;
+  /* width: 60px; */
+  /* height: 60px; */
   margin-left: -30px;
   margin-top: -30px;
 
@@ -68,8 +68,8 @@
 
 #tooltip .out {
   position: relative;
-  width: 70px;
-  height: 70px;
+  /* width: 70px; */
+  /* height: 70px; */
   padding: 5px;
   border: 5px solid rgba(255,255,255,0);
   border-radius: 50%;
@@ -92,8 +92,8 @@
 }
 
 #tooltip .in .image {
-  width: 30px;
-  height: 30px;
+  /* width: 30px; */
+  /* height: 30px; */
   background-image: url(../img/info.png);
   background-size: 30px;
   background-position: 0 30px;

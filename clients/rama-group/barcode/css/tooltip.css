@@ -95,7 +95,7 @@
 #tooltip .in .image {
   width: 30px;
   height: 30px;
-  background-image: url(../img/client-img/logo-icon.png);
+  /* background-image: url(../img/client-img/logo-icon.png); */
   background-size: 30px;
   background-position: 0 30px;
 }

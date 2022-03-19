@@ -815,6 +815,13 @@ body.view-control-buttons .viewControlButton {
   transform-origin: 50% 50%;
 }
 
+.barcode-logo-rama_group_logo {
+  height: 184px !important;
+  width: 500px !important;
+  top: -231px !important;
+  left: -241px !important;
+}
+
 .pune-convention-center {
   width: 250px !important;
 }
