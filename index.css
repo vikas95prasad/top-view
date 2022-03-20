@@ -259,4 +259,21 @@ body {
 	transition: transform .3s ease .2s;
 }
 
+  body{ margin:0; padding:0; font-family:arial; font-size:14px; line-height:1.7; background:#F8F8F8;}
+  p {margin:0; padding:0;}
+  .wrap{ margin:0 auto; max-width:1000px; width:90%;}
+  .wrap p { padding:10px 0; text-align:justify; font-size:16px; color:#505050 ;}
+  header { margin-bottom: 20px; position: relative; height:100px; line-height:100px; text-align:center; transition:all 0.7s ease-in-out; -webkit-transition:all 0.7s ease-in-out; -moz-transition:all 0.7s ease-in-out;}
+  header .wrap {  background:#FFCC33; color:#fff; /*transition:all 0.1s ease-in-out; -webkit-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out;*/  }
+  .logo {padding:0 20px; font-size:40px; font-weight:bold; position: relative; /*transition:all 0.1s ease-in-out; -webkit-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out;*/}
 
+  .email-address {
+    font-size: large;
+    font-weight: 700;
+    margin-top: -33px;
+  }
+  .phone {
+    font-size: large;
+    font-weight: 700;
+    margin-top: -72px;
+  }
